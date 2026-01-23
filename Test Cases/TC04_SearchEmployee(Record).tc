@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CheckObject</name>
+   <name>TC04_SearchEmployee(Record)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a021525d-da05-42d1-847c-67a2d8f6d6c4</testCaseGuid>
+   <testCaseGuid>d7a1b264-1e7a-4253-af05-3a91410755db</testCaseGuid>
 </TestCaseEntity>

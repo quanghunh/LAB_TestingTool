@@ -17,3 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/input_Username_username'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/input_Password_password'), 
+    'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/a_Admin'))
+
+WebUI.click(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/a_PIM'))
+
+WebUI.setText(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/input'), 'd')
+
+WebUI.click(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/button_Search'))
+
+WebUI.click(findTestObject('Object Repository/TC04_SearchEmployee(Record)/Page_OrangeHRM/div_0304Rahul Das'))
+
+WebUI.closeBrowser()
+

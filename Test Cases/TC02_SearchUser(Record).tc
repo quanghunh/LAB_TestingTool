@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_SearchUser(Record)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>498aba9f-d5e1-414f-bb6f-222623a4a41c</testCaseGuid>
+</TestCaseEntity>
